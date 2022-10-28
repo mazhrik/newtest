@@ -5,3 +5,7 @@ docker
 psycopg2
 validate-email
 djangorestframework
+django-rest-swagger
+drf_yasg
+docker
+djangorestframework-simplejwt

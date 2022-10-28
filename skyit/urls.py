@@ -27,7 +27,7 @@ schema_view = swagger_get_schema_view(
     ),
     public=True,
 )
-
+"""for accessing swagger appi doc the url is localhost:PORT/swagger/schema/"""
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('skyit_url/', include('skyapp.urls')),
